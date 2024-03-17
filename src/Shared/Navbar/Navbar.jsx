@@ -1,9 +1,9 @@
 const Navbar = () => {
   return (
-    <div>
+    <div className="fixed z-20 top-0 w-full bg-white">
       <div className="py-2 mx-80 flex items-center justify-between">
         <div>
-            <img src="./public/PSI-logo.svg" alt="" className="w-[197px] h-[60px" />      
+            <img src="./public/psi-logo.svg" alt="" className="w-[197px] h-[60px" />      
         </div>
         <div>
         <div className="flex items-center gap-5 justify-end pb-1">
