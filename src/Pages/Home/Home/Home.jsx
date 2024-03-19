@@ -3,6 +3,7 @@ import Contact from "../Contact/Contact";
 import Dreams from "../Dreams/Dreams";
 import Hiset from "../Hiset/Hiset";
 import Skill from "../Skill/Skill";
+import Testimonial from "../Testimonial/Testimonial";
 
 
 
@@ -12,6 +13,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Dreams></Dreams>
+            <Testimonial></Testimonial>
             <Hiset></Hiset>
             <Skill></Skill>
             <Contact></Contact>
