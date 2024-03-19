@@ -1,0 +1,24 @@
+.swiper-button-next, .swiper-button-prev {
+    position: relative; 
+    bottom: 10px;
+    top: auto;
+    left: auto;
+    right: auto;
+    margin: 15px;
+    padding: 0;
+    display: inline-flex;
+    --swiper-navigation-size: 20px;
+    --swiper-navigation-color: black;
+    font-weight: bold;
+    background-color: rgb(241, 245, 249);
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.swiper-button-next:hover,  .swiper-button-prev:hover{
+    background-color: #9E0442;
+    --swiper-navigation-color: white;
+}

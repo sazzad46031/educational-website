@@ -1,8 +1,8 @@
 import './Navbar.css'
 const Navbar = () => {
   return (
-    <div className="fixed z-20 top-0 w-full bg-white">
-      <div className="py-2 mx-80 flex items-center justify-between">
+    <div className="lg:fixed lg:z-20 lg:top-0 lg:w-full bg-white">
+      <div className="py-2 lg:mx-80 flex flex-col lg:flex-row items-center justify-between">
         <div>
           <img
             src="./public/psi-logo.svg"
@@ -11,7 +11,7 @@ const Navbar = () => {
           />
         </div>
         <div>
-          <div className="flex items-center gap-5 justify-end pb-1">
+          <div className="flex flex-col lg:flex-row items-center gap-5 justify-end pb-1">
             <ul className="flex gap-5 uppercase text-xs text-[#1424A1] font-bold">
               <li>
                 <a>Test Prep Store</a>
@@ -38,13 +38,13 @@ const Navbar = () => {
               </select>
             </div>
           </div>
-          <div className="flex gap-7 justify-end items-center">
-            <ul className="flex gap-7 text-lg  font-medium nav-links">
+          <div className="flex flex-col lg:flex-row gap-7 justify-end items-center">
+            <ul className="flex flex-col lg:flex-row gap-7 text-lg  font-medium nav-links">
               <li>
                 <a className="hover:text-[#9E0442]  text-[#20262C]">
                   Test Takers<i className="fa-solid fa-plus pl-2 text-xs"></i>
                 </a>
-                <div className="mega-box">
+                <div className="mega-box hidden lg:block">
                   <div className="content">
                     <div className="main">
                       <ul className='mega-links'>
@@ -876,7 +876,7 @@ const Navbar = () => {
                 <a className="hover:text-[#9E0442]  text-[#20262C]">
                   Test Sponsors<i className="fa-solid fa-plus pl-2 text-xs"></i>
                 </a>
-                <div className='mega-box-two'>
+                <div className='mega-box-two hidden lg:block'>
                   <div className='content-two'>
                     <div className='main-two'>
                       <div className='flex'>
@@ -956,7 +956,7 @@ const Navbar = () => {
                 <a className="hover:text-[#9E0442]  text-[#20262C]">
                   About<i className="fa-solid fa-plus pl-2 text-xs"></i>
                 </a>
-                <div className='mega-box-three'>
+                <div className='mega-box-three hidden lg:block'>
                   <div className='content-three'>
                     <div className='main-three'>
                       <div className='flex gap-10'>
@@ -1018,7 +1018,7 @@ const Navbar = () => {
                 <a className="hover:text-[#9E0442]  text-[#20262C]">
                   Knowledge Hub<i className="fa-solid fa-plus pl-2 text-xs"></i>
                 </a>
-                <div className='mega-box-four'>
+                <div className='mega-box-four hidden lg:block'>
                   <div className='content-four'>
                     <div className='main-four'>
                       <ul>

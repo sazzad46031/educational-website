@@ -2,7 +2,7 @@ import './Banner.css';
 
 const Banner = () => {
     return (
-        <div className="bg-[url('./public/banner.webp')] bg-cover py-[6%] relative mt-[97px]">
+        <div className="bg-[url('./public/banner.webp')] px-8 bg-cover py-[6%] relative mt-[97px]">
             <div className='max-w-screen-lg mx-auto'>
             <div className="absolute h-full w-full top-0 left-0 opacity-80 overlay"></div>
             <div className='relative'>

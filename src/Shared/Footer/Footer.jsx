@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <div className="pt-[6%]">
-      <div className="flex justify-between px-20 pb-20">
-        <div className="flex gap-40">
+    <div className="pt-[6%] px-8">
+      <div className="flex flex-col lg:flex-row justify-between lg:px-20 lg:pb-20">
+        <div className="flex flex-col lg:flex-row  lg:gap-40">
           <div>
             <p className="font-bold text-xl pb-5">Test Takers</p>
             <ul className="text-[#64686C] hover:text-[#9E0442] text-base font-light space-y-3">
@@ -99,12 +99,12 @@ const Footer = () => {
             <p className="text-[#20262C] text-xl font-bold pt-6">Join our newsletter to stay tuned with the <br></br>latest insights.</p>
             <p className="text-[#33475b] text-base pt-2">Email<span className="text-red-500">*</span></p>
             <input type="text" placeholder="Enter Your Email" className="block bg-[#f5f8fa] border w-full px-2 py-2 rounded-sm border-[#c87872] focus:border-[rgba(82,168,236,0.8)] outline-none mb-10"/>
-            <button className="bg-[#1424A1] hover:bg-[#9E0442] text-sm font-extrabold text-[#FFFFFF] pt-2 pr-5 pb-2 pl-5">Subscribe</button>
+            <button className="bg-[#1424A1] hover:bg-[#9E0442] text-sm font-extrabold text-[#FFFFFF] pt-2 pr-5 mb-8 pb-2 pl-5">Subscribe</button>
         </div>
       </div>
       <hr className="bg-[#64686C] h-[1px] border-0"></hr>
-      <div className="flex justify-between px-20 items-center">
-        <div className="flex items-center">
+      <div className="flex flex-col lg:flex-row justify-between lg:px-20 items-center">
+        <div className="flex flex-col lg:flex-row items-center">
             <p className="mr-12">©2024 PSI Services LLC, All Rights Reserved.</p>
             <p className="mr-12">Follow Us</p>
             <span className="pl-4"><i className="fa-brands fa-x-twitter  rounded-full flex justify-center items-center w-[40px] h-[40px] bg-slate-200 hover:text-white hover:bg-[#9E0442]"></i></span>

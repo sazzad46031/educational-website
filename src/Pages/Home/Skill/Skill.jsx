@@ -2,12 +2,12 @@
 
 const Skill = () => {
     return (
-        <div className="px-[440px] py-[6%] bg-slate-100">
-            <div className="flex gap-28 items-center">
-                <div className="w-1/2">
-                    <img src="./public/skill.webp" alt="" className="w-[459px]"/>
+        <div className="lg:px-[440px] py-[6%] px-8 bg-slate-100">
+            <div className="flex flex-col lg:flex-row lg:gap-28 lg:items-center">
+                <div className="lg:w-1/2 order-2">
+                    <img src="./public/skill.webp" alt="" className="w-[459px] pt-16 lg:pt-0"/>
                 </div>
-                <div className="w-1/2">
+                <div className="lg:w-1/2 order-1">
                     <img src="./public/englishskill.webp" alt="" className="w-[209px]"/>
                     <p className="text-xl font-light text-[#64686C] pt-5">Skills for English is a suite of English language tests used for work, study and residency purposes – the result of a partnership between the Scottish Qualifications Authority (SQA) and PSI.</p>
                     <p className="text-xl font-light text-[#64686C] pt-5">Mapped to the Common European Framework of Reference (CEFR), Skills for English is widely accepted for international academic admissions. It is also used to demonstrate progression in English language proficiency and for career improvement purposes. The suite includes tests approved by the UK Home Office for visa and immigration applications.</p>
